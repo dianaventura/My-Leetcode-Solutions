@@ -1,0 +1,14 @@
+        :rtype: Optional[ListNode]
+        """
+        """
+        :type list1: Optional[ListNode]
+        :type list2: Optional[ListNode]
+        # dummy node for starting point 
+        dummy = ListNode()
+        current = dummy
+    
+        #pointers for both lists
+        p1, p2 = list1, list2
+        
+        
+[
