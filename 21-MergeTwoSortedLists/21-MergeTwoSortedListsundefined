@@ -3,12 +3,11 @@
         """
         :type list1: Optional[ListNode]
         :type list2: Optional[ListNode]
-        # dummy node for starting point 
-        dummy = ListNode()
-        current = dummy
-    
-        #pointers for both lists
-        p1, p2 = list1, list2
-        
-        
+class Solution(object):
+    def mergeTwoLists(self, list1, list2):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+# Definition for singly-linked list.
+# class ListNode(object):
 [
