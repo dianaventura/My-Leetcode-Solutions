@@ -1,0 +1,12 @@
+        #if current is less than zero then set current to 0 
+        current = 0 
+        best = nums[0]
+        #for every number add it to current and if it is higher than the current best update best
+        for num in nums: 
+            current += num
+
+            if current > best: 
+        """
+        #keeping track of current and best
+                best = current
+[
